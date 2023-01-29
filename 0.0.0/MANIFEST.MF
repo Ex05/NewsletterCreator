@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: . res/lib/AffineChiffre.jar res/lib/Animated
+ Button.jar res/lib/Database_Util.jar res/lib/ImageUtil.
+ jar res/lib/javafx-mx.jar res/lib/LauncherUtil.jar news
+ letter_lib/mysql-connector-java-5.1.31-bin.jar res/lib/SearchB
+ ar.jar res/lib/Devils [Prozess].jar res/lib/mail.jar
+Main-Class: de.janik.Main
+

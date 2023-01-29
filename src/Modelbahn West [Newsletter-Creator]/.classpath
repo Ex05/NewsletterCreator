@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="res/lib/AffineChiffre.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/AnimatedButton.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/Database_Util.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/ImageUtil.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/javafx-mx.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/LauncherUtil.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/mysql-connector-java-5.1.31-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/SearchBar.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/Devils [Prozess].jar"/>
+	<classpathentry exported="true" kind="lib" path="res/lib/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

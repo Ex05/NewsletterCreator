@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/res/lib/AffineChiffre.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/AnimatedButton.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/Database_Util.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/ImageUtil.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/javafx-mx.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/LauncherUtil.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/mysql-connector-java-5.1.31-bin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/SearchBar.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/Devils [Prozess].jar!/" />
+    <libelement value="jar://$MODULE_DIR$/res/lib/mail.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="AffineChiffre.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/AffineChiffre.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="AnimatedButton.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/AnimatedButton.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Database_Util.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/Database_Util.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ImageUtil.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/ImageUtil.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx-mx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/javafx-mx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LauncherUtil.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/LauncherUtil.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.31-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/mysql-connector-java-5.1.31-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SearchBar.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/SearchBar.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Devils [Prozess].jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/Devils [Prozess].jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/lib/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

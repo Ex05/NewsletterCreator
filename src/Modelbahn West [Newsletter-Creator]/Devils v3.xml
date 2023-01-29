@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Modelbahn West [Newsletter-Creator] with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="C:/Users/JanMarcel/Desktop/Devils v3"/>
+    <property name="dir.jarfile" value="C:/Users/JanMarcel/Desktop/Export"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/newsletter.jar">
+            <manifest>
+                <attribute name="Main-Class" value="de.janik.Main"/>
+                <attribute name="Class-Path" value=". newsletter_lib/AffineChiffre.jar newsletter_lib/AnimatedButton.jar newsletter_lib/Database_Util.jar newsletter_lib/ImageUtil.jar newsletter_lib/javafx-mx.jar newsletter_lib/LauncherUtil.jar newsletter_lib/mysql-connector-java-5.1.31-bin.jar newsletter_lib/SearchBar.jar newsletter_lib/Devils [Prozess].jar newsletter_lib/Devils [UpdateManager].jar"/>
+            </manifest>
+            <fileset dir="${dir.buildfile}/bin"/>
+        </jar>
+        <delete dir="${dir.jarfile}/newsletter_lib"/>
+        <mkdir dir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/AffineChiffre.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/AnimatedButton.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/Database_Util.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/ImageUtil.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/javafx-mx.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/LauncherUtil.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/mysql-connector-java-5.1.31-bin.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/SearchBar.jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/Devils [Prozess].jar" todir="${dir.jarfile}/newsletter_lib"/>
+        <copy file="${dir.buildfile}/res/lib/Devils [UpdateManager].jar" todir="${dir.jarfile}/newsletter_lib"/>
+    </target>
+</project>
